@@ -171,6 +171,13 @@ Currently each country just shows a string of its neighbours' country codes.
 - Countries currently show up in the order decided by the data files. Add a feature to show them alphabetically or perhaps even by population
 </details>
 
+## Submitting this Challenge for Marking
+
+This challenge can be used for the following trello assessments: 
+- **WD06 - Build an accessible website using modular front-end architecture**
+
+  **_*Note_** - you will need to complete step 5 to pass this trello assessment.
+
 ---
 
 [Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=worldwide-routing)
