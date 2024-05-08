@@ -6,6 +6,9 @@ function Nav() {
     <div>
       <h2>Nav</h2>
       <ul>
+        <li>
+          <Link to={`/`}>Home</Link>
+        </li>
         {continentName.map((continent, idx) => (
           <li key={idx}>
             <Link to={`/continent/${continent}`}>{continent}</Link>

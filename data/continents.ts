@@ -3,7 +3,7 @@ interface Country {
   name: string
 }
 
-interface Continent {
+export interface Continent {
   image: string
   countries: Country[]
 }
