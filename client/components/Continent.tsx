@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import data, { Continent } from '../../data/continents'
-import countries from '../../data/countries'
+import Countries from './Country'
 
 function SelectContinent() {
   const { name } = useParams()
