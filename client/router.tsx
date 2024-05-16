@@ -13,6 +13,7 @@ export const router = createBrowserRouter(
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
       <Route path="continent/:name" element={<SelectContinent />} />
+      <Route path="countries/:name" element={<SelectContinent />} />
     </Route>,
   ),
 )
