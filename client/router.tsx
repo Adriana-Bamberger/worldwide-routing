@@ -7,7 +7,7 @@ import {
 import App from './components/App'
 import Home from './components/Home'
 import SelectContinent from './components/Continent'
-import { Countries } from '../data/countries'
+import Countries from './components/Country'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
