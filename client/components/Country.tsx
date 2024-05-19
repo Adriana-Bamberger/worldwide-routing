@@ -2,12 +2,12 @@ import { useParams } from 'react-router-dom'
 import countries from '../../data/countries'
 
 function Countries() {
-  const { code } = useParams()
-  const country = countries.find((element) => element.code === code)
+  const Name = useParams()
+  const country = countries.find((element) => element.name)
 
   return (
     <>
-      <div key={country?.code}>
+      <div key={country?.name}>
         <h2>{country?.name}</h2>
         <p>
           <span>Captail City: </span>
