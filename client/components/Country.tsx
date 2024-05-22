@@ -2,8 +2,9 @@ import { useParams } from 'react-router-dom'
 import countries from '../../data/countries'
 
 function Countries() {
-  const Name = useParams()
-  const country = countries.find((element) => element.name)
+  const { name } = useParams()
+  console.log(name)
+  const country = countries.find((element) => element.name === name)
 
   return (
     <>
